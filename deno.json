@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "chevrotain": "npm:chevrotain@^11.0.3"
+  },
+  "fmt": {
+    "semiColons": false,
+    "singleQuote": true
+  },
+  "tasks": {
+    "dev": "deno test --watch -A --no-check"
+  }
+}
